@@ -1,14 +1,14 @@
 
 /* GENERAL */
 body {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 200;
-  color: #333;
-  text-align: left;
-  line-height: 2;
-  background-color: #e9e6e0;
-  position: relative;
-  margin-top: 51px; }
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    color: #333;
+    text-align: left;
+    line-height: 2;
+    background-color: #e9e6e0;
+    position: relative;
+    margin-top: 51px; }
 
 /* LANDING PAGE */
 .landing-page {
@@ -52,6 +52,12 @@ body {
     padding-top: 15%;
     padding-bottom: 7%;}
 
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 5px;
+    margin-bottom: 50px;}
+
 h4 {
     text-align: left;
     font-weight: 200;}
@@ -83,4 +89,34 @@ img {
 .navbar-default .navbar-nav > li > a:hover {
     font-weight: 700;
     color: #8ba39c; }
+
+.hideme {
+    padding: 20vh 0;
+    #opacity: 0;
+}
+
+#contact {
+    text-align: center;
+    background-color: #fff;}
+
+#contact-content {
+    max-width: 500px;
+    margin:0 auto;
+    margin-bottom: 5vh;}
+
+.button > a {
+    display: inline-block;
+    background-color: #fff;
+    padding: 8px;
+    border: 2px solid #8ba39c;
+    border-radius: 10px;
+    color: #333;
+    letter-spacing: 1.5px;}
+
+.button a:hover {
+    background-color:  #aec2bc;
+    text-decoration: none;}
+
+
+
 
