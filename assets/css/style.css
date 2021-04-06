@@ -145,18 +145,8 @@ p {
     margin-bottom: 5vh;
 }
 
-.button > a {
-    display: inline-block;
-    background-color: #eae7dc;
-    padding: 8px;
-    border: 1px solid #d2cfc6;
-    border-radius: 10px;
-    color: #000;
-    letter-spacing: 1.5px;
-}
-
-.button a:hover {
-    text-decoration: none;
+#contact > a {
+    color: #555;
 }
 
 /* FOOTER */
